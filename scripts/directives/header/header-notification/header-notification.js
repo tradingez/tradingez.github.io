@@ -1,0 +1,1 @@
+"use strict";angular.module("sbAdminApp").directive("headerNotification",function(){return{templateUrl:"scripts/directives/header/header-notification/header-notification.html",restrict:"E",replace:!0,controller:function($scope,$rootScope,$translate){$scope.change_language=function(lang_code){$translate.use(lang_code),$rootScope.lang=lang_code}}}});

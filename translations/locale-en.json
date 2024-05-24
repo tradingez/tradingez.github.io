@@ -1,0 +1,19 @@
+{
+    "dashboard": {
+        "view_detail": "Detail"
+    },
+    "sidebar": {
+        "trending": "Trending",
+        "signal": "Market Signal",
+        "signal_buy": "Buy Signal",
+        "signal_sell": "Sell Signal",
+        "signal_wait_buy": "Waiting Buy Signal",
+        "signal_wait_sell": "Waiting Sell Signal",
+        "signal_buy_pullback": "Top Buy Pullback",
+        "signal_big_volume": "Top Big Volume",
+        "signal_break_up": "Top Break Up Stock",
+        "signal_break_down": "Top Break Down Stock",
+        "signal_cash_flow": "Top Cash Flow",
+        "recommendation": "Recommendation"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "dashboard": {
+        "view_detail": "Xem chi tiết"
+    },
+    "sidebar": {
+        "trending": "Xu hướng thị trường",
+        "signal": "Tín hiệu thị trường",
+        "signal_buy": "Top Tín hiệu mua",
+        "signal_sell": "Top Tín hiệu bán",
+        "signal_wait_buy": "Top Tín hiệu chờ mua",
+        "signal_wait_sell": "Top Tín hiệu chờ bán",
+        "signal_buy_pullback": "Top tín hiệu mua pullback",
+        "signal_big_volume": "Top đột biến khối lượng",
+        "signal_break_up": "Top CP Vượt đỉnh",
+        "signal_break_down": "Top CP phá đáy",
+        "signal_cash_flow": "Top Sức mạnh dòng tiền",
+        "recommendation": "Khuyến nghị"
+    }
+}

@@ -1,0 +1,1 @@
+"use strict";angular.module("sbAdminApp").controller("TrendingCtrl",function($scope,$rootScope,$stateParams,TradingApi,$location,APP_SERVICES){TradingApi.getMarketData().then(function(response){response&&response.marketOneData&&($scope.VNINDEX=JSON.parse(response.marketOneData.VNINDEX),$scope.HNX=JSON.parse(response.marketOneData.HNX))})});
