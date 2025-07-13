@@ -1,1 +1,1 @@
-"use strict";angular.module("sbAdminApp").factory("Websocket",function(socketFactory,$rootScope,APP_SERVICES){var token=$rootScope.user_info.token;return socketFactory({ioSocket:io.connect(APP_SERVICES.socket_server,{query:"token="+token})})});
+"use strict";angular.module("sbAdminApp").factory("Websocket",function(socketFactory,$rootScope,APP_SERVICES){var token=$rootScope.user_info.token,myIoSocket=io.connect(APP_SERVICES.socket_server,{query:"token="+token}),mySocket=socketFactory({ioSocket:myIoSocket});return mySocket});
